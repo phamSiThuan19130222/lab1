@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bai tap layout 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-align: center;
+        }
 
+        header {
+            background: #0d6efd;
+            height: 40%;
+            padding: 3%;
+        }
+
+        nav {
+            background: #ece1be;
+        }
+
+        .setHeight {
+            height: border-box;
+
+        }
+
+        .menu {
+            background: #dc3545;
+            float: left;
+            width: 20%;
+            /*height: border-box;*/
+        }
+
+        .content {
+            float: left;
+            width: 80%;
+            /*height: 300px;*/
+            background: #ffca2c;
+        }
+
+        footer {
+            background: #3dd5f3;
+            /*position: absolute;*/
+            float: end;
+            bottom: auto;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
+<header> header section</header>
+<nav> navigation section</nav>
+<div class="setHeight">
+    <div class="menu">
+        <h4> Menu List</h4>
+        <ul>
+            <li href="#"> link one</li>
+            <li href="#"> link two</li>
+            <li href="#"> link three</li>
+            <li href="#"> link four</li>
+        </ul>
+    </div>
+    <div class="content">
+        <p>this is an layout using table</p>
+    </div>
+</div>
+<footer> footer section</footer>
 </body>
 </html>
